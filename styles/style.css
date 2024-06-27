@@ -1,0 +1,679 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header p{
+    margin-right: 80px;
+}
+
+.inicio{
+    background-image: url("../assets/images/banner-bk.jpg");
+    padding: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+   background-position: center;
+}
+
+.titulo1{
+    max-width:40% ;
+    margin: 40px 70px;
+    justify-content: flex-end;
+    text-align: justify;
+}
+
+.texto{
+    font-family:sans-serif;
+    font-size:  50px;
+}
+
+.icono{
+    color: #fafafa;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.button{
+    background-color: #34e991;
+    color: rgb(0, 0, 0);
+    padding: 15px 40px;
+    border: none;
+    border-radius: 60px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.logo{
+    margin: 40px 70px;
+    width: 100px;
+    height: auto;
+   
+}
+
+.segundoTitulo{
+    padding: 60px 0;
+    text-align: center;
+    
+  }
+  
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+.img {
+    margin: 100px 50px;
+    max-width: 300px;
+  }
+
+  .button2 {
+    background-color: #090c25;
+    color: rgb(255, 255, 255);
+    padding: 15px 40px;
+    border: none;
+    border-radius: 60px;
+}
+
+.tercerTitulo{
+    padding: 10px 100px;
+    text-align: left;
+    background: linear-gradient(164deg, #fff 40%, #34e991 0);
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0; 
+}
+
+.container1 div, .container1 img{
+    width: 45%;
+}
+
+.titulo2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo21{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+}
+
+.texto3{
+    width: 100%;
+}
+
+.p2{
+    color: #666;
+}
+
+.feature-2 {
+    margin: 90px;
+    max-width: 400px;
+    height: auto;
+    margin-left: auto;
+    top: 8px;
+}
+
+.cuartoTitulo {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #f9f9f9;    
+}
+
+.cuartoTitulo h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.startup{
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    margin: 0 10px; 
+}
+
+.startup h3, .containerColor h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.containerColor{
+    background-color: #002750;
+    color: #fff;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    margin: 0 10px; 
+}
+
+.button3 {
+    padding: 15px 40px;
+    color: #000;
+    border: none;
+    border-radius: 60px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-weight: bold;
+}
+
+.button4{
+    background-color: #34e991;
+    padding: 15px 40px;
+    color: #000;
+    border: none;
+    border-radius: 60px;
+    margin-top: 20px; 
+    border: 1px solid #34e991;
+    font-weight: bold;
+}
+
+span {
+    font-size: 70px;
+}
+
+.clientes {
+    position: sticky;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: #ebeaea;
+    padding: 40px 0;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.cliente {
+    margin: 0 10px;
+    max-height: 50px;
+}
+  
+.formulario{
+    background-image: url("../assets/images/contact-bk.jpg");
+    height: 500px;
+    width: 100 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    color: rgb(255, 255, 255);
+}
+  
+.titulo3{
+    font-size: 3rem;
+    margin: 10px, 0px;
+}
+  
+.contact-info{
+    max-width:80% ;
+    margin: 70px;
+    justify-content: flex-start;
+    text-align: justify;
+}
+    
+.formulario1 {
+    background-color: transparent;
+    margin: 15px;
+    padding: 70px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 420px;
+    width: 100%;
+}
+
+#pato{
+    position: relative;
+    bottom: -85px;
+    width:150px ;
+    right: 45%;
+    
+}
+
+    
+.formulario2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+    
+.formulario3 {
+    width: 48%;
+    margin-right: 7%; 
+}
+    
+.formulario3:last-child {
+    margin-right: 0; 
+}
+    
+.form-input {
+    padding: 10px;
+    border: 2px solid rgb(0, 247, 164);
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+    color: #333;
+}
+    
+textarea.form-input {
+    width: 210%;
+    height: 90px;
+    resize: vertical;
+    background-color: transparent;
+    color: #333;
+}
+    
+.submit-button {
+    background-color: rgb(0, 247, 164);
+    color: rgb(12, 12, 12);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 107%;
+}
+    
+.submit-button:hover {
+    background-color:  rgb(0, 247, 164);
+}
+
+.Message{
+    color:rgb(0, 247, 164);
+}
+
+.final {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #002750;
+    color: #fff;
+    width: 100%;
+    padding: 20px 0;
+    height: auto;
+}
+
+.copy {
+    margin: 0;
+    padding-left: 20px; 
+}
+
+.social {
+    display: flex;
+    padding-right: 20px; 
+}
+
+.social img {
+    width: 40px; 
+    height: 40px;
+    border-radius: 60%; 
+    background-color: #fff; 
+    padding: 5px; 
+}
+@media screen and (max-width: 920px) {
+    .inicio {
+        padding: 50px;
+    }
+
+    .titulo1 {
+        max-width: 50%;
+    }
+
+    .container1 {
+        display: flex;
+        margin: 20px;
+        justify-content: space-between;
+    }
+
+    .container1 div, .container1 img {
+        width: 55%;
+        height: 30%;
+        margin: 10px 0;
+    }
+
+    .feature-2 {
+        max-width: 100%;
+        margin: 20px 0;
+    }
+
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .startup, .containerColor {
+        width: 80%;
+        margin: 20px 0;
+    }
+
+    .clientes {
+        display: flex;
+        justify-content: space-between;
+        padding: 1vh;
+        background-color: #dfdcdc;
+        width: 98%;
+    }
+
+    .cliente {
+        margin: 5px;
+        margin-right: 10px;
+    }
+
+    .contact-info {
+        max-width: 80%;
+        margin: 30px;
+        justify-content: flex-start;
+        text-align: justify;
+    }
+
+    .titulo3 {
+        font-size: 2rem;
+        margin: 0px 20px;
+    }
+    
+    .texto{
+        font-family:sans-serif;
+        font-size:  40px;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    header p {
+        margin-right: 20px;
+    }
+
+    .titulo1 {
+        max-width: 70%;
+    }
+
+    .img {
+        margin: 50px 20px;
+        max-width: 80%;
+    }
+
+    body{
+        margin: -8px;
+        padding: 0;
+        font-family:Arial, Helvetica, sans-serif
+    }
+
+    .container1 {
+        flex-direction: column;
+        display: flex;
+        margin: 40px 10px 0;
+    }
+
+    .container1 div, .container1 img {
+        width: 55%;
+        height: 55%;
+    }
+
+    .titulo2, .titulo21 {
+        font-size: 40px;
+        margin: 10px;
+    }
+
+    .container2 {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+        margin-top: 80px;
+    }
+
+    .startup, .containerColor {
+        width: 90%;
+        align-content: space-between;
+        justify-content: center;
+    }
+
+   
+
+    .final {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .formulario1 {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body, html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; 
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0 10px; 
+    }
+
+    header p {
+        margin: 10px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .titulo1 {
+        width: 100%;
+        padding: 0 10px; 
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0 10px; 
+    }
+    .form-input {
+    padding: inherit;
+    }
+
+    .img {
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0 10px; 
+    }
+
+    .formulario {
+        padding: 8px 9px;
+        width: 100%; 
+        box-sizing: border-box; 
+    }
+
+    .container1 div, .container1 img {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .titulo2, .titulo21 {
+        font-size: 40px;
+        padding: 0 10px; 
+        text-align: center;
+    }
+
+    .feature-2 {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .tercerTitulo {
+        padding: 20px;
+        background: linear-gradient(164deg, #34e991 50%, #090c25 50%);
+        width: 100%; 
+        box-sizing: border-box; 
+    }
+
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0 10px; 
+    }
+
+    .startup, .containerColor {
+        width: 100%;
+        margin: 10px 0;
+        padding: 0 10px; 
+    }
+
+    .clientes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background-color: #dfdcdc;
+        width: 100%;
+    }
+
+    .imagenes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .texto {
+        font-family: sans-serif;
+        font-size: 20px;
+        padding: 0 10px; 
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .cliente {
+        margin: 5px;
+        max-height: 50px;
+        width: auto;
+    }
+
+    .final {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding: 0 10px; 
+    }
+
+    .copy, .social {
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box; 
+    }
+
+    .social img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .imgGrande {
+        width: 100%;
+        height: auto; 
+        margin: 0;
+        padding: 0;
+    }
+
+    .lineaVerde {
+        width: 100%;
+        background-color: green;
+        height: 5px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 352px) {
+    
+        .contact-info {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 10px 5px; 
+        margin-bottom: 20px;
+    }
+
+    .formulario1, .formulario2, .formulario3 {
+        width: 100%;
+        padding: 0 5px; 
+        margin-bottom: 2px;
+    }
+
+    .formulario2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .form-input {
+        width: calc(50% - 2px); 
+        margin-bottom: 1px;
+        padding: 2px; 
+        font-size: 8px;
+    }
+
+    textarea.form-input {
+        width: 100%;
+        height: 20%;
+        resize: vertical;
+        font-size: 8px;
+    }
+
+    .submit-button {
+        width: 100%;
+        margin-top: 5px; 
+        padding: 4px; 
+        font-size: 8px;
+    }
+
+    
+
+    .contact-info h1 {
+        font-size: 0.8rem; 
+    }
+}
